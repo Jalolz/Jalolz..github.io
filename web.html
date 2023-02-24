@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Already Coder</title>
+        
+		<link rel="shortcut icon" type="" href="">
+
+		<meta name="author" content="Already Coder">
+		<meta name="description" content="Already Coder">
+
+      </div>
+        <style>
+            body {
+				background-color: rgb(25, 25, 25);
+                color: white;
+                font-family: "Trebuchet MS";
+                background-image: url(imageedit_3_7474061403.png);
+				background-attachment: fixed;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+            body::-webkit-scrollbar {
+                width: 15px;
+            }
+      
+            body::-webkit-scrollbar-thumb {
+                background-color: rgb(80, 80, 80);
+            }
+
+            #Logo {
+                margin-top: 20px;
+                height: 600px;
+            }
+
+            #scriptBtn {
+                color: rgb(255, 255, 255);
+                background-color: rgb(45, 45, 45);
+                margin-top: 45px;
+                border: 0px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 600px;
+                height: 35px;
+            }
+
+            #copyPopup {
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                border: 0px;
+                border-radius: 4px;
+                text-align: center;
+                position: center;
+                display: none;
+                width: 150px;
+                height: 35px;
+                left: 100px;
+            }
+
+            #detailLine {
+                margin-top: 45px;
+                border: 5px solid rgb(37, 173, 0 );
+                width: 600px;
+                height: 0px;
+                border-radius: 10px;
+            }
+
+            #detailLine2 {
+                margin-top: 45px;
+                border: 5px solid rgb(0, 134, 173);
+                width: 600px;
+                height: 0px;
+                border-radius: 10px;
+            }
+
+            #detaillinemini {
+                margin-top: 45px;
+                border: 2.5px solid rgb(0, 134, 173);
+                width: 3s00px;
+                height: 0px;
+                border-radius: 10px;
+            }
+
+            #copyBtn:hover {
+                background-color: rgb(70, 70, 70);
+            }
+
+            #desccard {
+                width: 34%;
+                background-color: rgb(51, 51, 51 );
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 7px;
+            }
+
+            #button {
+              font-family: Montserrat, sans-serif;
+              font-weight: 600;
+              font-size: 3em;
+              color: white;
+              border: none;
+              background-color: #7289da;
+              padding: 10px;
+              border-radius: 0.1em;
+              position: relative;
+              overflow: hidden;
+              transition: background-color 200ms ease-in-out;
+            }
+
+            #button::before,
+            #button::after {
+              content: "";
+              width: 0%;
+              height: 0.15em;
+              background-color: #1B295B;
+              position: absolute;
+              transition: width 200ms ease-in-out;
+            }
+
+            #button::before {
+              left: 0;
+              top: 0;
+            }
+
+            #button::after {
+              right: 0;
+              bottom: 0;
+            }
+
+            #button:hover::before,
+            #button:hover::after {
+              width: 100%;
+            }
+
+            #button:hover {
+              background-color: #506099;
+            } 
+
+
+            
+            #button2 {
+              font-family: Montserrat, sans-serif;
+              font-weight: 600;
+              font-size: 3em;
+              color: white;
+              border: none;
+              background-color: #404040;
+              padding: 10px;
+              border-radius: 0.1em;
+              position: relative;
+              overflow: hidden;
+              transition: background-color 200ms ease-in-out;
+            }
+
+            #button2::before,
+            #button2::after {
+              content: "";
+              width: 0%;
+              height: 0.15em;
+              background-color: #161616;
+              position: absolute;
+              transition: width 200ms ease-in-out;
+            }
+
+            #button2::before {
+              left: 0;
+              top: 0;
+            }
+
+            #button2::after {
+              right: 0;
+              bottom: 0;
+            }
+
+            #button2:hover::before,
+            #button2:hover::after {
+              width: 100%;
+            }
+
+            #button2:hover {
+              background-color: #272727;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <input type="text" value="Copied to clipboard!" readonly="" id="copyPopup">
+        <center>
+            <img src="faviconbutpng.e3767602.png" alt="Logo" id="Logo">
+                <br>
+                    <h1>Press the code to copy! Enter into your executor and run! Now enjoy!</h1>
+                    <button id="scriptBtn"><span style="color: rgb(78, 153, 204);">loadstring</span>(game:<span style="color: rgb(78, 153, 204);">HttpGet</span>(<span style="color: rgb(80, 179, 179);">"</span><span style="color: rgb(149, 199, 144);">AlreadyCoderScriptSoon</span><span style="color: rgb(80, 179, 179);">"</span>))();</button>
+                <br>
+            <div id="detailLine2"></div>
+                <br>
+                    <h1 style="font-family: Arial;">Welcome to Already Coder, Roblox Scripts!</h1>
+                    <i style="color: rgb(180, 180, 180);"><span style="color: rgb(0, 173, 42);">Already</span> <span style="color: rgb(0, 146, 173 );">Coder</span> is a free Roblox script. <br> It's made to be executed on Roblox exploits.<br>We try to make roblox more fun and easier with our scripts!</i>
+            <div id="detailLine"></div>
+                <br>
+                    <h1 style="font-family: arial">Scripts</h1>
+                    <button id="button2">View Scripts!</button>
+            <div id="detailLine2"></div>
+                <br>
+                    <h1 style="font-family: arial; color: rgb(114, 137, 218);">Discord</h1>
+                    <button id="button">JOIN!</button>
+            <div id="detailLine"></div>
+                <br>
+                    <h1>Features and Updates</h1>
+                        <div id="desccard">
+                            <br>
+                            <h1 style="color: rgb(207, 207, 207 );">Welcome</h1>
+                            <div id="detaillinemini"></div>
+                            <br>    
+                            <h1 style="color: rgb(207, 207, 207 );">New Website</h1>
+                            <div id="detaillinemini"></div>
+                            <br>
+                            <h1 style="color: rgb(207, 207, 207 );">New Scripts</h1>
+                        <br>
+                    </div>
+            <br>
+            <div>
+                <br>
+                    <h1>Credits</h1>
+                        <div id="desccard">
+                            <h1>Already Coder</h1>
+                            <h1 style="font-family: Trebuchet MS; font-style: italic; color: rgb(207, 207, 207); font-size: 20px;">Owner of Already Coder Scripts.</h1>
+                        </div>
+                        <div id="desccard">
+                            <h1>Jalolz</h1>
+                            <h1 style="font-family: Trebuchet MS; font-style: italic; color: rgb(207, 207, 207); font-size: 20px;">Website owner, GUi Maker, Java Script Coder and CO-Owner.</h1>
+                        </div>
+                        <div id="desccard">
+                            <h1>3Ree</h1>
+                             <h1 style="font-family: Trebuchet MS; font-style: italic; color: rgb(207, 207, 207); font-size: 20px; ">Scripter, Programmer, GUi maker and Helper</h1>
+                        </div>
+
+
+        </center>
+        <script type="text/javascript">
+            const button2 = document.getElementById("button2");
+            const copyPopup = document.getElementById("copyPopup");
+            const gamesBtn = document.getElementById("gamesBtn");
+            const discordBtn = document.getElementById("button");
+
+            scriptBtn.addEventListener("click", () => {
+                const scriptBox = document.createElement("textarea");
+                scriptBox.value = 'loadstring(game:HttpGet("AlreadyCoderScriptSoon"))();';
+                document.body.appendChild(scriptBox);
+                scriptBox.select();
+                document.execCommand("copy");
+                document.body.removeChild(scriptBox);
+                copyPopup.style.display = "block";
+                setTimeout(() => {copyPopup.style.display = "none";}, 1000);
+            });
+
+            button2.addEventListener("click", () => {
+                window.open("");
+            });
+
+            button.addEventListener("click", () => {
+                window.open("www.google.com");
+            });
+        </script>
+</body></html>
