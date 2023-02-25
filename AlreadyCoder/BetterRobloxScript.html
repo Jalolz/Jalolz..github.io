@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Already Coder</title>
+        
+        <link rel="shortcut icon" type="" href="">
+
+        <meta name="author" content="Already Coder">
+        <meta name="description" content="Better Roblox script, By Already Coder">
+
+      </div>
+        <style> 
+            body {
+                background-color: rgb(25, 25, 25);
+                color: white;
+                font-family: "Trebuchet MS";
+                background-image: url(imageedit_3_7474061403.png);
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            body::-webkit-scrollbar {
+                width: 15px;
+            }
+      
+            body::-webkit-scrollbar-thumb {
+                background-color: rgb(80, 80, 80);
+            }
+
+            #Logo {
+                margin-top: 20px;
+                height: 600px;
+            }
+
+            #scriptBtn {
+                color: rgb(255, 255, 255);
+                background-color: rgb(45, 45, 45);
+                margin-top: 45px;
+                border: 0px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 600px;
+                height: 35px;
+            }
+
+            #copyPopup {
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                border: 0px;
+                border-radius: 4px;
+                text-align: center;
+                position: center;
+                display: none;
+                width: 150px;
+                height: 35px;
+                left: 100px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <input type="text" value="Copied to clipboard!" readonly="" id="copyPopup">
+        <center>    
+                <br>
+                    <h1>Press the code to copy! Enter into your executor and run! Now enjoy!</h1>
+                    <button id="scriptBtn"><span style="color: rgb(78, 153, 204);">loadstring</span>(game:<span style="color: rgb(78, 153, 204);">HttpGet</span>(<span style="color: rgb(80, 179, 179);">"</span><span style="color: rgb(149, 199, 144);">AlreadyCoderScriptSoon</span><span style="color: rgb(80, 179, 179);">"</span>))();</button>
+                <br>
+                <img src="faviconbutpng.e3767602.png" alt="Logo" id="Logo">
+        </center>
+        <script type="text/javascript">
+            const button2 = document.getElementById("button2");
+            const copyPopup = document.getElementById("copyPopup");
+            const gamesBtn = document.getElementById("gamesBtn");
+            const discordBtn = document.getElementById("button");
+
+            scriptBtn.addEventListener("click", () => {
+                const scriptBox = document.createElement("textarea");
+                scriptBox.value = 'loadstring(game:HttpGet("AlreadyCoderScriptSoon"))();';
+                document.body.appendChild(scriptBox);
+                scriptBox.select();
+                document.execCommand("copy");
+                document.body.removeChild(scriptBox);
+                copyPopup.style.display = "block";
+                setTimeout(() => {copyPopup.style.display = "none";}, 1000);
+            });
+
+            button2.addEventListener("click", () => {
+                window.open("ViewScripts.html");
+            });
+
+            button.addEventListener("click", () => {
+                window.open("home.html");
+            });
+        </script>
+</body></html>
+
+//Made By Jalolz//
