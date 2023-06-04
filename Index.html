@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contactformulier</title>
+  <script src="script.js"></script>
+  <form id="contact-form" method="post" action="Server.php">
+</form>
+
+</head>
+<body>
+  <h1>Contactformulier</h1>
+  <form id="contact-form" method="post">
+    <label for="name">Naam:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">E-mailadres:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Bericht:</label>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+    <input type="submit" value="Verstuur">
+  </form>
+</body>
+</html>
