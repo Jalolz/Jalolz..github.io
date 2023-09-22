@@ -1,0 +1,104 @@
+/* Gemeenschappelijke stijlen voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+p {
+    color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+/* Stijlen voor het inlogformulier */
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid #007BFF;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="password"]:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Stijlen voor de informatiebox */
+.info-box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.info-section {
+    margin-bottom: 20px;
+}
+
+.info-container {
+    padding: 20px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+
+.info-container:hover {
+    transform: scale(1.05);
+}
